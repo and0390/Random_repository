@@ -218,17 +218,6 @@ void printTitle(std::string_view str) noexcept{
 
 int main(){
 
-
-    // Money rupiah{100000,250};
-    // Money rupiah2 {50000, 250};
-
-    // double x {90.67893645};
-
-    // Money sum {rupiah + rupiah2};
-
-    // std::cout << x << '\n';
-
-
     Tours tours
         { "Tour Ticket Prices from Miami",
             {
@@ -281,59 +270,6 @@ int main(){
     printBody(tours,columnWidth);
     printHorizontalLine(columnWidth);
     
-    
-
-    
-
-    
-
-    /**(TotalSpace - lengthOfString) / 2
-     *  This formula computes a total length of TotalSpace where lengthOfString should start, hence it can be in the middle
-     */
-
-
- 
-    // std::cout << '|';
-    // for(size_t i {}; i < header.size(); ++i){
-    //     std::cout << std::setw(lenAfterMargin[i]-mid[i])
-    //               << header[i]
-    //               << std::setw(mid[i])
-    //               << '|';
-    // }
-    // std::cout << '\n';
-
-    // printColLine(lenAfterMargin);
-
-
-    // const auto& vect = tours.countries;
-
-    
-    // for(size_t i {}; i < header.size(); ++i){
-    //     std::cout << '|' << std::left;
-    //     std::cout << std::setw(lenAfterMargin[0] - 1)
-    //               << vect[i].name;
-    //     for(const auto& j : vect[i].cities){
-    //          if(j.name != vect[i].cities[0].name){
-    //             std::cout.put('|').width(lenAfterMargin[0] - 1);
-    //             std::cout << ' ';
-    //         }
-    //         std::cout << '|'
-    //                   << std::setw(lenAfterMargin[1] - 1)
-    //                   << j.name
-    //                   << '|'
-    //                   << std::setw(lenAfterMargin[2] - 1)
-    //                   << j.population
-    //                   << '|'
-    //                   << j.cost
-    //                   << '|'
-    //                   << '\n';
-    //     }
-    //     std::cout.fill('-');
-    //     std::cout << std::setw(std::accumulate(lenAfterMargin.cbegin(),lenAfterMargin.cend(),0) + 1)
-    //               << '-'
-    //               << '\n';
-    //     std::cout.fill(' ');
-    // }
 
     return 0;
 }
